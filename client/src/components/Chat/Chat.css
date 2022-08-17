@@ -1,0 +1,54 @@
+.ChatPage {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(70, 67, 67);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ChatContainer {
+  background-color: white;
+  height: 60%;
+  width: 50%;
+}
+
+.Header {
+  background-color: crimson;
+  height: 15%;
+}
+
+.ChatBox {
+  height: 70%;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.InputBox {
+  height: 15%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+#ChatInput {
+  width: 80%;
+  border: 0.1vmax solid black;
+  background-color: white;
+  padding: 2vmax;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 1.2vmax;
+}
+
+.ChatSendBtn {
+  background-color: crimson;
+  color: white;
+  border: none;
+  width: 20%;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.ChatSendBtn:hover {
+  background-color: rgb(180, 27, 58);
+}
